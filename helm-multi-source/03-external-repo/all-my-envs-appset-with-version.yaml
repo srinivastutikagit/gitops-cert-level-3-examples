@@ -8,7 +8,7 @@ spec:
   goTemplateOptions: ["missingkey=error"]
   generators:
   - git:
-      repoURL: https://github.com/codefresh-contrib/gitops-cert-level-3-examples.git
+      repoURL: https://github.com/srinivastutikagit/gitops-cert-level-3-examples.git
       revision: HEAD
       files:
       - path: "helm-multi-source/03-external-repo/env-config/**/config.json"       
