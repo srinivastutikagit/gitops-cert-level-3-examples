@@ -9,7 +9,7 @@ spec:
   project: default
   destination:
     server: https://kubernetes.default.svc
-    namespace: staging-eu
+    namespace: prod-us
   sources:
     - repoURL: https://github.com/codefresh-contrib/gitops-cert-level-3-examples.git
       path: helm-multi-source/my-chart
